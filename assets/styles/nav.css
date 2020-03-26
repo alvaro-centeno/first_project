@@ -11,9 +11,25 @@ body {
 .nav h1 {
     color: whitesmoke;
     margin-left: 20px;
+    align-self: center;
 }
 
+.nav-items {
+    align-self: center;
+    margin-right: 20px;
+}
+
+
 .nav-items li {
-    color: whitesmoke;
     list-style: none;
+    display: inline;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-items li:not(:last-child){
+    margin-right: 10px;
 }
